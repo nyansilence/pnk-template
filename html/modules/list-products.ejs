@@ -1,0 +1,54 @@
+<section class="mod-list_product">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            <div class="title margin-title">Danh Mục Sản Phẩm</div>
+                            <div class="border-title default-border"></div>
+                            <% for (let index = 0; index < 6; index++) { %>
+                            <div>Sản phẩm 1</div>
+                            <% } %>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-quangcao">
+                    <div class="col quangcao"><img class="img-responsive shadow lazy" src="./img/qc.JPG" alt=""></div>
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="bg-display">
+                    <div>
+                        <label for="">Hiển thị</label>
+                        <select name="" id="">
+                            <option value=""></option>
+                        </select>
+                        <label for="">Sắp xếp theo</label>
+                        <input type="" placeholder="Phổ biến">
+                    </div>
+                </div>
+                <div>
+                    <% for (let index = 0; index < 2; index++) { %>
+                    <div class="row row-top ">
+                        <% for (let index = 0; index < 3; index++) { %>
+                        <div class="col-sm col-top items">
+                            <a class="linked" href="">
+                                <div><img class="img-responsive lazy" src="./img/sp1.JPG" alt=""></div>
+                                <div><span>Sản phẩm 1</span></div>
+                                <div><small>100.000 VNĐ</small></div>
+                            </a>
+                        </div>
+                        <% } %>
+                    </div>
+                    <% } %>
+                </div>
+                <div class="bg-display">
+                    <div class="border-page">
+                        1
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

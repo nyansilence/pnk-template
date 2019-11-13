@@ -1,0 +1,15 @@
+.banner {
+    min-height: 565px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media only screen and (max-width:991px){
+    .banner{
+        background-size: cover;
+    }
+}

@@ -1,0 +1,45 @@
+.slide-product{
+    max-width:  1110px;
+}
+.row-top{
+    margin: 20px 0;
+    span{
+        font-size: 19px;
+    }
+    small{
+        font-size: 17px;
+    }
+}
+.col-top:first-child{
+        padding: 0 15px 0 0;
+}
+.col-top:last-child{
+        padding: 0 0 0 15px;
+}
+.col-top{
+    span{
+        font-size: 19px;
+    }
+    small{
+        font-size: 17px;
+        color: $ff;
+    }
+}
+@media only screen and (max-width:991px){
+    .slide-product{
+        width: 290px;
+    }
+    .col-top{
+        margin:10px 0;
+        padding:0;
+    }
+    .col-top:first-child{
+        padding: 0 ;
+    }
+    .col-top:last-child{
+        padding: 0 ;
+    }
+    .item-product{
+        margin:10px 0;
+    }
+}

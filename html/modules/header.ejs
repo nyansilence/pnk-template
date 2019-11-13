@@ -1,0 +1,64 @@
+<header class="mod-header">
+    <div class="container">
+        <div class="header">
+            <div class="lang-1">EN | VN</div>
+            <div class="brand">
+                <a href="">
+                    <img class="lazy img-responsive" data-src="./img/vitamin_logo-02.png" alt="">
+                </a>
+            </div>
+            <div class="shop-cart">
+                <div><input width="50px" type="text" placeholder="Tìm kiếm"></div>
+                <div><img class="lazy img-responsive" src="./img/cart.PNG" alt=""></div>
+            </div>
+            <div class="menu-ham">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="menu menu-pc">
+            <ul class="menu__lv1">
+                <li><a href="about.html">Trang Chủ</a></li>
+                <li class="has-submenu"><a href="products.html">Sản Phẩm</a>
+                    <ul class="menu__lv2">
+                        <% for (let index = 0; index < 4; index++) { %>
+                        <li><a href="">sub menu <%= index %></a></li>
+                        <% }  %>
+                    </ul>
+                </li>
+                <li><a href="sale.html">Khuyến Mãi</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Liên Hệ</a></li>
+            </ul>
+        </div>
+        <div class="menu menu-mb">
+            <div class="menu-container">
+                <ul class="menu__lv1">
+                    <li>
+                        <div class="lang-2">EN | VN</div>
+                    </li>
+                    <li><a href="about.html">Trang Chủ</a></li>
+                    <li class="has-submenu"><a href="products.html">Sản Phẩm</a>
+                        <ul class="menu__lv2">
+                            <% for (let index = 0; index < 4; index++) { %>
+                            <li><a href="">sub menu <%= index %></a></li>
+                            <% }  %>
+                        </ul>
+                    </li>
+                    <li><a href="sale.html">Khuyến Mãi</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Liên Hệ</a></li>
+                    <li>
+                        <div><input width="50px" type="text" placeholder="Tìm kiếm"></div>
+                    </li>
+                    <li>
+                        <div><img class="lazy img-responsive" src="./img/cart.PNG" alt=""></div>
+                    </li>
+                    <li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
