@@ -1,6 +1,6 @@
 .mod-header {
     padding: 5px 0;
-    position: fixed;
+    position: inherit;
     width: 100%;
     top: 0;
     left: 0;
@@ -12,10 +12,11 @@
     }
 
     &.is-scroll {
+        position: fixed;
         box-shadow: 0px 13px 49px -20px rgba($primary_color, .75);
         .brand {
             img {
-                max-width: 40px;
+                max-width: 200px;
             }
         }
     }
@@ -25,7 +26,7 @@
     display: inline-block;
     img {
         transition: all .2s ease-in-out;
-        max-width: 50px;
+        max-width: 250px;
     }
 }
 
@@ -125,8 +126,43 @@
         }
     }
 }
-
+.menu-tasbar{
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+        }
+    }
+}
+.lang-1{
+    display: none;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.shop-cart{
+    display: none;
+}
 @media only screen and (min-width: 992px) {
+    .shop-cart{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        // display: inline-block;
+        div{
+            padding:10px;
+        }
+    }
+    .lang-2{
+        display: none;
+    }
+    .lang-1{
+        display: inline-block;
+    }
     .mod-header {
         &.is-scroll {
             padding: 0;
@@ -141,6 +177,7 @@
     }
 
     .menu-pc {
+        text-align: center;
         display: block;
         li {
             display: inline-block;
@@ -162,7 +199,6 @@
             }
         }
     }
-    
     .menu__lv2 {
         position: absolute;
         max-height: 0;
@@ -175,7 +211,13 @@
             display: block;
         }
     }
-
+    .brand {
+        display: inline-block;
+        img {
+            transition: all .2s ease-in-out;
+            max-width: 294px;
+        }
+    }
     .menu-ham {
         display: none;
     }

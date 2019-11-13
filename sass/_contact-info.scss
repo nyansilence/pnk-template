@@ -1,0 +1,20 @@
+.mod-contact_info{
+    margin:30px 0;
+}
+.infomation{
+    input ,textarea{
+        width: 100%;
+        margin:10px 0;
+    }
+}
+.bt{
+    background-color: $ff;
+    border-color: $ff;
+}
+@media only screen and (max-width:991px){
+    .infomation{
+        input ,textarea{
+            margin:5px 0;
+        }
+    }
+}

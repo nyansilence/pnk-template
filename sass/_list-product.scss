@@ -1,0 +1,42 @@
+.default-border{
+    margin:0;
+}
+.mod-list_product{
+    font-size: 19px;
+}
+.bg-display{
+    background-color: $F5;
+    min-height: 54px;
+    padding:10px 10px 10px 0;
+}
+.items{
+        padding: 0 30px 0 0;
+        &:last-child{
+            padding: 0;
+        }
+}
+.quangcao{
+    min-height: 722px;
+    
+}
+.shadow{
+    background-color: rgba($black,.1);
+}
+.border-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    max-width: 34px;
+    height: 34px;
+    background-color: $page;
+    border-radius: 50%;
+}
+@media only screen and (max-width:991px){
+    .items{
+        padding: 0;
+    }
+    // .row-quangcao{
+    //     order: 1;
+    // }
+}

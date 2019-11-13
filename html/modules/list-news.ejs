@@ -1,0 +1,42 @@
+<section class="mod-list_new">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <div>
+                    <% for (let index = 0; index < 2; index++) { %>
+                    <div class="row row-top">
+                        <% for (let index = 0; index < 2; index++) { %>
+                        <div class="col-sm col-top items">
+                            <a class="linked" href="">
+                                <div><img class="img-responsive lazy" src="./img/sp1.JPG" alt=""></div>
+                                <div><span>Tin tức 1</span></div>
+                                <div>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <% } %>
+                    </div>
+                    <% } %>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            <input type="text" placeholder="Tìm kiếm">
+                            <div class="title margin-title">Danh Mục Blog</div>
+                            <div class="border-title default-border"></div>
+                            <% for (let index = 0; index < 3; index++) { %>
+                            <div>Tin tức</div>
+                            <% } %>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col quangcao"><img class="img-responsive shadow lazy" src="./img/qc.JPG" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

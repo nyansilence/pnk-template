@@ -1,0 +1,30 @@
+<section class="mod-product_top">
+    <div class="container">
+        <div>
+            <div class="title">
+                <div class="title">TOP Sản phẩm</div>
+                <div class="border-title"></div>
+            </div>
+            <div>
+                <% for (let index = 0; index < 2; index++) { %>
+                <div class="row row-top">
+                    <% for (let index = 0; index < 3; index++) { %>
+                    <div class="col-sm col-top">
+                        <a class="linkedd" href="">
+                            <div><img class="img-responsive lazy" src="./img/sp1.JPG" alt=""></div>
+                            <div><span>Sản phẩm 1</span></div>
+                            <div><small>100.000 VNĐ</small></div>
+                        </a>
+                    </div>
+                    <% } %>
+                </div>
+                <% } %>
+            </div>
+        </div>
+        <div class="slide-product owl-carousel owl-theme">
+            <% for (let index = 0; index < 5; index++) { %>
+            <div><img class="img-responsive lazy" src="./img/banner2.JPG" alt=""></div>
+            <% } %>
+        </div>
+    </div>
+</section>

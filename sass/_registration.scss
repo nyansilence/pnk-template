@@ -1,0 +1,36 @@
+.mod-registration{
+    color: $white;
+    input{
+        color:$black;
+    }
+}
+.col-icon{
+    display: flex;
+    justify-content: flex-end;
+}
+.bg-registration{
+    background-color: $ff;
+    min-height: 86px;
+}
+.col-regis{
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+            display: inline-block;
+        }
+    }
+}
+@media only screen and (max-width:991px){
+    .col-icon{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .col-regis{
+        padding: 0;
+        li{
+            padding:10px 0 0 7.5px; 
+        }
+        
+    }
+}
