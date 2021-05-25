@@ -18,7 +18,7 @@
   "homepage": "https://github.com/nyansilence/pnk-template#readme",
   "dependencies": {
     "browser-sync": "^2.26.7",
-    "browserslist": "^4.6.6",
+    "browserslist": "^4.16.5",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-concat": "^2.6.1",
